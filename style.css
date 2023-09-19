@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(233, 230, 230);
+    margin: 0;
+    box-sizing: content-box;
+}
+
+
+.logo{
+    background-color: white;
+    height: 60px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-image: url(Logo.png); 
+    background-position: 12px;
+    padding: 7px;
+    
+    
+
+}
+.titolo{
+ font-size: 30px;
+ font-family: 'Roboto Mono';
+ font-weight: bold;
+ padding-left: 60px;
+ padding-top: 30px;
+ 
+}
+.task{
+ height: 45px;
+ width: auto;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ background-color: white;
+ margin: 50px 250px 1px 250px;
+ ;
+}
+.task1{
+background-color: aqua;
+ width: 30px;
+ height: 10px;
+ margin: 10px;
+ 
+}
