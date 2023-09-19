@@ -13,31 +13,132 @@ body{
     background-image: url(Logo.png); 
     background-position: 12px;
     padding: 7px;
-    
-    
-
 }
 .titolo{
- font-size: 30px;
- font-family: 'Roboto Mono';
- font-weight: bold;
- padding-left: 60px;
- padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    padding-left: 60px;
+    padding-top: 10px;
  
 }
 .task{
- height: 45px;
- width: auto;
- border-top-left-radius: 5px;
- border-top-right-radius: 5px;
- background-color: white;
- margin: 50px 250px 1px 250px;
- ;
+     height: 45px;
+    width: auto;
+     border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+     background-color: white;
+     margin: 50px 250px 1px 250px;
+ 
+}
+.bottoni{
+    padding: 10px 10px 10px 40px;
+    
 }
 .task1{
-background-color: aqua;
- width: 30px;
- height: 10px;
- margin: 10px;
- 
+    width: 80px;
+    height: 25px;
+    background-color: rgb(5, 74, 131);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+}
+.task2{
+    width: 100px;
+    height: 25px;
+    border-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    color: gray;
+    font-weight: bold;
+    font-size: 13px;
+}
+.contenitore-informazioni{
+    height: 500px;
+    background-color: white;
+    margin: 0px 250px 1px 250px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.prima-riga{
+    padding: 35px;
+}
+.head-text{
+    margin: 0;
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+}
+.text{
+    font-family: 'Roboto Mono';
+    font-size: 15px;
+    margin: 5px;
+}
+.bottone-celeste{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(5, 74, 131);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
+}
+.seconda-riga{
+    padding-top: 20px;
+}
+
+.bottone-viola{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(121, 5, 131);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
+}
+.bottone-verde{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(20, 131, 5);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
+    
+}
+.bottone-arancione{
+    width: 70px;
+    height: 25px;
+    background-color: rgb(228, 161, 16);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
+}
+.terza-riga{
+    padding-top: 20px;
+}
+.bottone-rosa{
+    width: 70px;
+    height: 25px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
+}
+.bottone-verde-chiaro{
+    width: 70px;
+    height: 25px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    border: none;
 }
